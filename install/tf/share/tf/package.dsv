@@ -1,0 +1,3 @@
+source;share/tf/hook/pythonpath.ps1
+source;share/tf/hook/pythonpath.dsv
+source;share/tf/hook/pythonpath.sh
