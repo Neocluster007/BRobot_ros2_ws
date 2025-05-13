@@ -78,7 +78,7 @@ class OdomPublisher(Node):
         self.odom_pub.publish(odom)
 
         # Send TF
-        t = TransformStamped()
+        t = TransformStamped() 
         t.header.stamp = now.to_msg()
         t.header.frame_id = 'odom'
         t.child_frame_id = 'base_link'

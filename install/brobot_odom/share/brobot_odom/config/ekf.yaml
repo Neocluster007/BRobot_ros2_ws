@@ -3,25 +3,42 @@ ekf_filter_node:
     frequency: 30.0
     sensor_timeout: 0.1
 
+    # ใช้ odom จาก encoder
     odom0: odom
     odom0_config: [true,  true,  false,
-                   false, false, false,
+                   false, false, true,
                    false, false, false,
                    false, false, false,
                    false, false, false]
 
+    # ใช้ IMU เฉพาะ angular velocity.z
     imu0: imu
     imu0_config: [false, false, false,
-                  true,  true,  true,
+                  false, false, true,
                   false, false, false,
-                  true,  true,  true,
+                  false, false, false,
                   false, false, false]
 
     imu0_differential: false
     imu0_remove_gravitational_acceleration: true
 
-    publish_tf: true
-    map_frame: map
+    # กรณี imu frame ไม่ตรง
+    imu0_relative: true
+
+    # กำหนด frame ID
+    map_frame: map            # เอาไว้ให้ Nav2 ใช้
     odom_frame: odom
     base_link_frame: base_link
-    world_frame: odom
+    world_frame: odom         # ใช้ odom เป็น world frame ในระบบนี้
+
+    # Publish odometry
+    publish_tf: true
+    print_diagnostics: true
+
+    # Optional tuning
+    process_noise_covariance: [0.05, 0, 0, 0, 0, 0,
+                               0, 0.05, 0, 0, 0, 0,
+                               0, 0, 0.0, 0, 0, 0,
+                               0, 0, 0, 0.1, 0, 0,
+                               0, 0, 0, 0, 0.1, 0,
+                               0, 0, 0, 0, 0, 0.05]

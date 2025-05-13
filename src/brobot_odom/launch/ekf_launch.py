@@ -8,6 +8,6 @@ def generate_launch_description():
             executable='ekf_node',
             name='ekf_filter_node',
             output='screen',
-            parameters=['/home/ubuntu/ros2_ws/src/brobot_odom/config/ekf.yaml'],  # ปรับ path
+            parameters=['/home/ubuntu/ros2_ws/src/brobot_odom/config/ekf.yaml'],
         )
     ])
