@@ -1,0 +1,4 @@
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 --time-sync-period 1000 --verbose
+ros2 run brobot_tf laser_tf_broadcaster
+ros2 run brobot_odom odom_publisher
+ros2 launch brobot_slam slam_launch.py

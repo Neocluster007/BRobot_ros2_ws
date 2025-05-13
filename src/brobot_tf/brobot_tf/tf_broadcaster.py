@@ -4,16 +4,24 @@ from rclpy.node import Node
 from tf2_ros import TransformBroadcaster
 from geometry_msgs.msg import TransformStamped
 import math
+from builtin_interfaces.msg import Time
+import time
+from rclpy.qos import QoSProfile
 
 class LaserTFBroadcaster(Node):
     def __init__(self):
         super().__init__('laser_tf_broadcaster')
         self.br = TransformBroadcaster(self)
+        self.pub = self.create_publisher(Time, 'ros_time', QoSProfile(depth=10))
         self.timer = self.create_timer(0.1, self.broadcast_tf)
 
     def broadcast_tf(self):
+
+        now = self.get_clock().now().to_msg()
+
         t = TransformStamped()
-        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.stamp = now
+        #t.header.stamp = Time()
         t.header.frame_id = 'base_link'
         t.child_frame_id = 'laser'
 
@@ -34,6 +42,7 @@ class LaserTFBroadcaster(Node):
         t.transform.rotation.w = qw
 
         self.br.sendTransform(t)
+        self.pub.publish(now)
 
     def euler_to_quaternion(self, roll, pitch, yaw):
         # ใช้สูตรจาก ROS Wiki
