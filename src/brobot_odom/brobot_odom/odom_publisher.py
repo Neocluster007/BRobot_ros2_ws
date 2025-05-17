@@ -17,7 +17,7 @@ class OdomPublisher(Node):
         self.sub_right = self.create_subscription(Int32, '/encoder_R', self.right_callback, 10)
 
         self.odom_pub = self.create_publisher(Odometry, 'odom', 10)
-        self.br = TransformBroadcaster(self)
+        self.br = TransformBroadcaster(self) 
 
         # Robot state
         self.enc_L = 0
