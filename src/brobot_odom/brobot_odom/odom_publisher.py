@@ -10,7 +10,9 @@ import math
 
 class OdomPublisher(Node):
     def __init__(self):
-        super().__init__('odom_publisher') 
+        super().__init__('odom') 
+
+        print("[Brobot][Odom] Odom initial BRobot......!")
 
         # Subscribe encoder
         self.sub_left = self.create_subscription(Int32, '/encoder_L', self.left_callback, 10)
@@ -36,6 +38,8 @@ class OdomPublisher(Node):
 
         self.prev_time = self.get_clock().now()
         self.timer = self.create_timer(0.05, self.update_odom)
+
+        print("[Brobot][Odom] Odom Ready")
 
     def left_callback(self, msg):
         self.enc_L = msg.data

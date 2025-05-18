@@ -10,10 +10,14 @@ from rclpy.qos import QoSProfile
 
 class LaserTFBroadcaster(Node):
     def __init__(self):
-        super().__init__('laser_tf_broadcaster')
+        super().__init__('tf')
+        print("[Brobot][TF] TF initial BRobot......!")
+
         self.br = TransformBroadcaster(self)
         self.pub = self.create_publisher(Time, 'ros_time', QoSProfile(depth=10))
         self.timer = self.create_timer(0.1, self.broadcast_tf)
+
+        print("[Brobot][TF] TF Ready")
 
     def broadcast_tf(self):
 

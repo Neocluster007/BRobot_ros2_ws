@@ -1,8 +1,6 @@
 /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/odom_publisher.py
-/home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/odom.py
 /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/__init__.py
 /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/__pycache__/odom_publisher.cpython-310.pyc
-/home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/__pycache__/odom.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/__pycache__/__init__.cpython-310.pyc
 /home/ubuntu/ros2_ws/install/brobot_odom/share/brobot_odom/package.xml
 /home/ubuntu/ros2_ws/install/brobot_odom/share/brobot_odom/launch/ekf_launch.py
