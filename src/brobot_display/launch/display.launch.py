@@ -17,11 +17,12 @@ def generate_launch_description():
             package='joint_state_publisher_gui',
             executable='joint_state_publisher_gui',
             name='joint_state_publisher_gui'
-        ),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            arguments=['-d', os.path.join(get_package_share_directory('brobot_display'), 'rviz', 'display.rviz')]
         )
+        #,
+        #Node(
+        #    package='rviz2',
+        #    executable='rviz2',
+        #    name='rviz2',
+        #    arguments=['-d', os.path.join(get_package_share_directory('brobot_display'), 'rviz', 'display.rviz')]
+        #)
     ])

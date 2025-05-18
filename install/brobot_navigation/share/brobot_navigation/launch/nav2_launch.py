@@ -6,6 +6,9 @@ from ament_index_python.packages import get_package_share_directory
 pkg_dir = get_package_share_directory('brobot_navigation')
 
 def generate_launch_description():
+
+
+
     return LaunchDescription([
         # Map Server
         Node(
