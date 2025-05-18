@@ -1,0 +1,20 @@
+[3.522s] Invoking command in '/home/ubuntu/ros2_ws/src/brobot_slam': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_slam build --build-base /home/ubuntu/ros2_ws/build/brobot_slam/build install --record /home/ubuntu/ros2_ws/build/brobot_slam/install.log --single-version-externally-managed install_data
+[4.118s] running egg_info
+[4.118s] writing ../../build/brobot_slam/brobot_slam.egg-info/PKG-INFO
+[4.123s] writing dependency_links to ../../build/brobot_slam/brobot_slam.egg-info/dependency_links.txt
+[4.123s] writing entry points to ../../build/brobot_slam/brobot_slam.egg-info/entry_points.txt
+[4.123s] writing requirements to ../../build/brobot_slam/brobot_slam.egg-info/requires.txt
+[4.123s] writing top-level names to ../../build/brobot_slam/brobot_slam.egg-info/top_level.txt
+[4.123s] reading manifest file '../../build/brobot_slam/brobot_slam.egg-info/SOURCES.txt'
+[4.124s] writing manifest file '../../build/brobot_slam/brobot_slam.egg-info/SOURCES.txt'
+[4.125s] running build
+[4.125s] running build_py
+[4.125s] running install
+[4.126s] running install_lib
+[4.128s] running install_data
+[4.128s] running install_egg_info
+[4.136s] removing '/home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages/brobot_slam-0.0.1-py3.10.egg-info' (and everything under it)
+[4.138s] Copying ../../build/brobot_slam/brobot_slam.egg-info to /home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages/brobot_slam-0.0.1-py3.10.egg-info
+[4.138s] running install_scripts
+[4.182s] writing list of installed files to '/home/ubuntu/ros2_ws/build/brobot_slam/install.log'
+[4.249s] Invoked command in '/home/ubuntu/ros2_ws/src/brobot_slam' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_slam build --build-base /home/ubuntu/ros2_ws/build/brobot_slam/build install --record /home/ubuntu/ros2_ws/build/brobot_slam/install.log --single-version-externally-managed install_data

@@ -1,6 +1,8 @@
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/launch/nav2_launch.py
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/config/amcl.yaml
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/config/nav2_params.yaml
+/home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/config/bt_navigator.yaml
+/home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/config/planner_server.yaml
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/maps/map.yaml
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/maps/map.pgm
 /home/ubuntu/ros2_ws/install/brobot_navigation/share/brobot_navigation/package.xml

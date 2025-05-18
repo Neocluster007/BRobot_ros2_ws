@@ -8,7 +8,7 @@ setup(
     packages=[],
     data_files=[
         ('share/' + package_name + '/launch', ['launch/nav2_launch.py']),
-        ('share/' + package_name + '/config', ['config/amcl.yaml', 'config/nav2_params.yaml']),
+        ('share/' + package_name + '/config', ['config/amcl.yaml', 'config/nav2_params.yaml', 'config/bt_navigator.yaml', 'config/planner_server.yaml']),
         ('share/' + package_name + '/maps', ['maps/map.yaml', 'maps/map.pgm']),
         ('share/' + package_name, ['package.xml']),
     ],

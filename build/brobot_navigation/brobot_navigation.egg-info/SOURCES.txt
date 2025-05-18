@@ -9,7 +9,9 @@ setup.py
 ../../build/brobot_navigation/brobot_navigation.egg-info/top_level.txt
 ../../build/brobot_navigation/brobot_navigation.egg-info/zip-safe
 config/amcl.yaml
+config/bt_navigator.yaml
 config/nav2_params.yaml
+config/planner_server.yaml
 launch/nav2_launch.py
 maps/map.pgm
 maps/map.yaml

@@ -18,7 +18,7 @@ def generate_launch_description():
                 'yaml_filename': os.path.join(pkg_dir, 'maps', 'map.yaml')
             }]
         ),
-
+        
         # AMCL
         Node(
             package='nav2_amcl',
@@ -82,4 +82,5 @@ def generate_launch_description():
             output='screen',
             parameters=[os.path.join(pkg_dir, 'config', 'nav2_params.yaml')]
         ),
+        
     ])
