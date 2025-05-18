@@ -1,0 +1,18 @@
+[3.605s] Invoking command in '/home/ubuntu/ros2_ws/src/brobot_display': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_display build --build-base /home/ubuntu/ros2_ws/build/brobot_display/build install --record /home/ubuntu/ros2_ws/build/brobot_display/install.log --single-version-externally-managed install_data
+[4.080s] running egg_info
+[4.082s] writing ../../build/brobot_display/brobot_display.egg-info/PKG-INFO
+[4.086s] writing dependency_links to ../../build/brobot_display/brobot_display.egg-info/dependency_links.txt
+[4.089s] writing entry points to ../../build/brobot_display/brobot_display.egg-info/entry_points.txt
+[4.091s] writing requirements to ../../build/brobot_display/brobot_display.egg-info/requires.txt
+[4.093s] writing top-level names to ../../build/brobot_display/brobot_display.egg-info/top_level.txt
+[4.096s] reading manifest file '../../build/brobot_display/brobot_display.egg-info/SOURCES.txt'
+[4.098s] writing manifest file '../../build/brobot_display/brobot_display.egg-info/SOURCES.txt'
+[4.100s] running build
+[4.100s] running install
+[4.100s] running install_data
+[4.101s] copying meshes/base.stl -> /home/ubuntu/ros2_ws/install/brobot_display/share/brobot_display/meshes
+[4.108s] running install_egg_info
+[4.112s] Copying ../../build/brobot_display/brobot_display.egg-info to /home/ubuntu/ros2_ws/install/brobot_display/lib/python3.10/site-packages/brobot_display-0.0.0-py3.10.egg-info
+[4.117s] running install_scripts
+[4.151s] writing list of installed files to '/home/ubuntu/ros2_ws/build/brobot_display/install.log'
+[4.299s] Invoked command in '/home/ubuntu/ros2_ws/src/brobot_display' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_display build --build-base /home/ubuntu/ros2_ws/build/brobot_display/build install --record /home/ubuntu/ros2_ws/build/brobot_display/install.log --single-version-externally-managed install_data

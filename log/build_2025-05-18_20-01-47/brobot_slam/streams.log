@@ -1,0 +1,19 @@
+[3.290s] Invoking command in '/home/ubuntu/ros2_ws/src/brobot_slam': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_slam build --build-base /home/ubuntu/ros2_ws/build/brobot_slam/build install --record /home/ubuntu/ros2_ws/build/brobot_slam/install.log --single-version-externally-managed install_data
+[3.858s] running egg_info
+[3.859s] writing ../../build/brobot_slam/brobot_slam.egg-info/PKG-INFO
+[3.861s] writing dependency_links to ../../build/brobot_slam/brobot_slam.egg-info/dependency_links.txt
+[3.863s] writing entry points to ../../build/brobot_slam/brobot_slam.egg-info/entry_points.txt
+[3.866s] writing requirements to ../../build/brobot_slam/brobot_slam.egg-info/requires.txt
+[3.867s] writing top-level names to ../../build/brobot_slam/brobot_slam.egg-info/top_level.txt
+[3.867s] reading manifest file '../../build/brobot_slam/brobot_slam.egg-info/SOURCES.txt'
+[3.867s] writing manifest file '../../build/brobot_slam/brobot_slam.egg-info/SOURCES.txt'
+[3.867s] running build
+[3.867s] running build_py
+[3.867s] running install
+[3.867s] running install_lib
+[3.871s] running install_data
+[3.871s] running install_egg_info
+[3.874s] removing '/home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages/brobot_slam-0.0.1-py3.10.egg-info' (and everything under it)
+[3.889s] Copying ../../build/brobot_slam/brobot_slam.egg-info to /home/ubuntu/ros2_ws/install/brobot_slam/lib/python3.10/site-packages/brobot_slam-0.0.1-py3.10.egg-info
+[3.890s] running install_scripts
+[3.929s] writing list of installed files to '/home/ubuntu/ros2_ws/build/brobot_slam/install.log'
