@@ -18,7 +18,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'laser_tf_broadcaster = brobot_tf.tf_broadcaster:main',
+            'tf = brobot_tf.tf_broadcaster:main',
         ],
     },
 )

@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'odom_publisher = brobot_odom.odom_publisher:main',
+            'odom = brobot_odom.odom_publisher:main',
         ],
     },
 )

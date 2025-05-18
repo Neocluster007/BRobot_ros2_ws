@@ -1,0 +1,27 @@
+[2.453s] Invoking command in '/home/ubuntu/ros2_ws/src/brobot_odom': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_odom build --build-base /home/ubuntu/ros2_ws/build/brobot_odom/build install --record /home/ubuntu/ros2_ws/build/brobot_odom/install.log --single-version-externally-managed install_data
+[2.872s] running egg_info
+[2.874s] writing ../../build/brobot_odom/brobot_odom.egg-info/PKG-INFO
+[2.874s] writing dependency_links to ../../build/brobot_odom/brobot_odom.egg-info/dependency_links.txt
+[2.875s] writing entry points to ../../build/brobot_odom/brobot_odom.egg-info/entry_points.txt
+[2.875s] writing requirements to ../../build/brobot_odom/brobot_odom.egg-info/requires.txt
+[2.875s] writing top-level names to ../../build/brobot_odom/brobot_odom.egg-info/top_level.txt
+[2.878s] reading manifest file '../../build/brobot_odom/brobot_odom.egg-info/SOURCES.txt'
+[2.882s] writing manifest file '../../build/brobot_odom/brobot_odom.egg-info/SOURCES.txt'
+[2.883s] running build
+[2.883s] running build_py
+[2.883s] copying brobot_odom/odom_publisher.py -> /home/ubuntu/ros2_ws/build/brobot_odom/build/lib/brobot_odom
+[2.883s] copying brobot_odom/odom.py -> /home/ubuntu/ros2_ws/build/brobot_odom/build/lib/brobot_odom
+[2.884s] running install
+[2.886s] running install_lib
+[2.889s] copying /home/ubuntu/ros2_ws/build/brobot_odom/build/lib/brobot_odom/odom_publisher.py -> /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom
+[2.889s] copying /home/ubuntu/ros2_ws/build/brobot_odom/build/lib/brobot_odom/odom.py -> /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom
+[2.889s] byte-compiling /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/odom_publisher.py to odom_publisher.cpython-310.pyc
+[2.892s] byte-compiling /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom/odom.py to odom.cpython-310.pyc
+[2.893s] running install_data
+[2.893s] running install_egg_info
+[2.897s] removing '/home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom-0.0.1-py3.10.egg-info' (and everything under it)
+[2.903s] Copying ../../build/brobot_odom/brobot_odom.egg-info to /home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages/brobot_odom-0.0.1-py3.10.egg-info
+[2.903s] running install_scripts
+[2.957s] Installing odom_publisher script to /home/ubuntu/ros2_ws/install/brobot_odom/lib/brobot_odom
+[2.960s] writing list of installed files to '/home/ubuntu/ros2_ws/build/brobot_odom/install.log'
+[3.022s] Invoked command in '/home/ubuntu/ros2_ws/src/brobot_odom' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/brobot_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/brobot_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brobot_odom build --build-base /home/ubuntu/ros2_ws/build/brobot_odom/build install --record /home/ubuntu/ros2_ws/build/brobot_odom/install.log --single-version-externally-managed install_data

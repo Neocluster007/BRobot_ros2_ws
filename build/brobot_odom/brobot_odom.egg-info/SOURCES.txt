@@ -9,6 +9,7 @@ setup.py
 ../../build/brobot_odom/brobot_odom.egg-info/top_level.txt
 ../../build/brobot_odom/brobot_odom.egg-info/zip-safe
 brobot_odom/__init__.py
+brobot_odom/odom.py
 brobot_odom/odom_publisher.py
 config/ekf.yaml
 launch/ekf_launch.py
