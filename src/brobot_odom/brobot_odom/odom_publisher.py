@@ -10,7 +10,7 @@ import math
 
 class OdomPublisher(Node):
     def __init__(self):
-        super().__init__('odom_publisher')
+        super().__init__('odom_publisher') 
 
         # Subscribe encoder
         self.sub_left = self.create_subscription(Int32, '/encoder_L', self.left_callback, 10)
