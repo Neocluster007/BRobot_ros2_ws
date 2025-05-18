@@ -10,14 +10,14 @@ import math
 
 class OdomPublisher(Node):
     def __init__(self):
-        super().__init__('odom_publisher')
+        super().__init__('odom_publisher') 
 
         # Subscribe encoder
         self.sub_left = self.create_subscription(Int32, '/encoder_L', self.left_callback, 10)
         self.sub_right = self.create_subscription(Int32, '/encoder_R', self.right_callback, 10)
 
         self.odom_pub = self.create_publisher(Odometry, 'odom', 10)
-        self.br = TransformBroadcaster(self)
+        self.br = TransformBroadcaster(self) 
 
         # Robot state
         self.enc_L = 0
